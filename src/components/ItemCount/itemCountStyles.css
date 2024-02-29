@@ -1,0 +1,38 @@
+.counter {
+    background-color: aliceblue;
+    width: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 10px
+}
+
+.counter p{
+    font-size: 50px;
+    margin: 0 auto;
+
+}
+
+.cant-val{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns-interact{
+    display: flex;
+    justify-content: space-around;
+
+}
+.increase, .decrease{
+    width: 30%;
+    background-color: rgba(76, 0, 130, 0.227);
+    border-radius: 4px;
+}
+
+.btn-add{
+    margin-top: 5px;
+    background-color: rgba(76, 0, 130, 0.227);
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}

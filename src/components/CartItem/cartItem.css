@@ -1,0 +1,39 @@
+.cartItems {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.detail-left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.detail-center{
+    display: flex;
+    gap: 10px;
+
+}
+
+.detail-center span{
+    color: rgb(122, 88, 88);
+    position: relative;
+    top: 15px;
+}
+
+.btn-remove-item {
+    height: 20px;
+    position: relative;
+    top: 15px;
+    color: aliceblue;
+    background-color: rgba(33, 26, 26, 0.927);
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+.btn-remove-one {
+    position: relative;
+    top: 15px;
+}

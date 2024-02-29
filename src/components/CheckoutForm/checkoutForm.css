@@ -1,0 +1,12 @@
+.checkout-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    margin: 0 auto;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 240);
+    padding-bottom: 20px;
+    margin-top: 80px;
+}

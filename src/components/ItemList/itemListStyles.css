@@ -1,0 +1,12 @@
+.listItems {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+
+}
+
+.listItems a{
+    text-decoration: none;
+    color: inherit;
+}

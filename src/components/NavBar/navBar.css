@@ -1,0 +1,43 @@
+.navBar {
+    display: flex;
+    margin: 20px;
+    box-shadow: -4px 2px 40px 0px rgba(171, 165, 165, 0.75);
+    border-radius: 8px;
+
+}
+
+h3 {
+    font-size: 26px;
+    padding-left: 25px;
+    padding-right: 15px;
+    cursor: default;
+}
+
+.vLine{
+    border-left: 1px solid #00000015;
+    margin: 0 10px;
+}
+
+.categoryList{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 25px;
+    gap: 10px;
+}
+
+.navBarButtons button{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.categoryList li a.active{
+    color: #ebe4f3;
+}
+
